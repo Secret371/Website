@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirAsia - Travel Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="AirAsia_New_Logo.svg.png" alt="AirAsia Logo">
+            </div>
+            <nav class="user-nav">
+                <ul>
+                    <li><a href="#">My Bookings</a></li>
+                    <li><a href="#" id="loginBtn">Login</a></li>
+                    <li><a href="#" class="btn btn-primary" id="signupBtn">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <button class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active" data-section="flights">
+                        <a href="#"><i class="fas fa-plane"></i> <span>Flights</span></a>
+                    </li>
+                    <li data-section="trains">
+                        <a href="#"><i class="fas fa-train"></i> <span>Trains</span></a>
+                    </li>
+                    <li data-section="buses">
+                        <a href="#"><i class="fas fa-bus-alt"></i> <span>Buses</span></a>
+                    </li>
+                    <li data-section="hotels">
+                        <a href="#"><i class="fas fa-hotel"></i> <span>Hotels</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="hero-section" id="hero-section">
+                <div class="container hero-content">
+                    <h1 id="hero-heading">It's time to fly!</h1>
+                    <div class="booking-form-card" id="booking-form-card">
+                        </div>
+                </div>
+            </div>
+
+            <section class="promotions-section container">
+                <h2>Hot Deals & Promotions</h2>
+                <div class="deals-grid">
+                    <div class="deal-card">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Deal 1">
+                        <h3>Fly to Bangkok from ₹8,999!</h3>
+                        <p>Limited time offer. Book now!</p>
+                        <a href="#" class="btn btn-secondary">View Deal</a>
+                    </div>
+                    <div class="deal-card">
+                        <img src="https://cdn.britannica.com/49/102749-050-B4874C95/Kuala-Lumpur-Malaysia.jpg" alt="Deal 2">
+                        <h3>Explore Kuala Lumpur - Hotels + Flights</h3>
+                        <p>Bundle and save up to 30%.</p>
+                        <a href="#" class="btn btn-secondary">View Deal</a>
+                    </div>
+                    <div class="deal-card">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1404/Majestic%20Pura%20Ulun%20Danu%20Bratan.jpg" alt="Deal 3">
+                        <h3>Beach Holiday Packages to Bali</h3>
+                        <p>Sun, sand, and serenity await!</p>
+                        <a href="#" class="btn btn-secondary">View Deal</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>AirAsia</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Download Our App</h3>
+                <img src="https://via.placeholder.com/120x40/000000/FFFFFF?text=App+Store" alt="App Store">
+                <img src="https://via.placeholder.com/120x40/000000/FFFFFF?text=Google+Play" alt="Google Play">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AirAsia Berhad. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
